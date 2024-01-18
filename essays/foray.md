@@ -11,8 +11,6 @@ labels:
 
 <img width="200px" src="../img/codefaster.jpg">
 
-*Difficulty: a thing that is hard to accomplish, deal with, or understand.*
-
 I wanted to title this essay, “First Foray into Javascript”, but then I’d be lying. Back when Codecademy was 100% free, I started learning how to program by going through their Javascript course. I think the furthest I got was learning about conditionals, so I didn’t learn much, nor did I remember much when I started my degree here a couple of years ago. You could probably say that this is my second first foray into the language. 
 
 
