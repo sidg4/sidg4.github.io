@@ -9,7 +9,7 @@ labels:
   - Javascript
 ---
 
-<img width="200px" src="../img/foray/codefaster.jpg">
+<img width="200px" src="../img/codefaster.jpg">
 
 *Difficulty: a thing that is hard to accomplish, deal with, or understand.*
 
