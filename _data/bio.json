@@ -9,8 +9,8 @@
     "summary": "I am studying for a B.A. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall, 2025.",
     "location": { "address": "", "postalCode": "96813", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "https://github.com/sidg4" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "https://www.linkedin.com/in/sidneygills/" },
+      { "network": "github", "username": "sidg4", "url": "https://github.com/sidg4" },
+      { "network": "linkedin", "username": "sidneygills", "url": "https://www.linkedin.com/in/sidneygills/" },
     ]
   },
   "interests": [
@@ -37,31 +37,10 @@
       "area": "Computer Science (expected Fall, 2025)",
       "studyType": "B.A.",
       "startDate": "2022-01-01",
-      "endDate": "2025-12-31",
+      "endDate": "Present",
       "courses": [
       ]
     }
-  ],
-  "work": [
-    {
-      "company": "",
-      "position": "",
-      "website": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        ""
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "",
-      "date": "",
-      "awarder": "",
-      "summary": ""
-    },
   ],
   "references": [
     {
