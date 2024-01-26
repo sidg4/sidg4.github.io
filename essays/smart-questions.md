@@ -1,99 +1,32 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "No Dumb Questions, Only... Not Smart Questions?"
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
-published: false
+date: 2024-01-25
+published: true
 labels:
   - Questions
   - Answers
   - StackOverflow
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
+<img width="300px" class="rounded float-start pe-4" src="../img/dumb-questions.png">
 
-## Is there such thing as a stupid question?
+## There are no dumb questions, only… not smart questions?
 
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
+At times in the article, it seems like the author had been very personally offended by the stupid questions he sees get posted to forums, but his rants are relatable and do a good job conveying why those questions were not smart. If every question were to follow his guidelines, it would certainly lead to better dialog. If somebody has done no searching or trial-and-error of their own and asks an ambiguous question, why would someone else want to spend time on their problem if it looks like they haven’t either. 
 
-## What’s a smart question?
+Those answering would have a more favorable gauge of the effort put in if they could see that the person asking had actually searched the documentation or tried different things themselves. Including that in the original post would help eliminate questions that they have about the original question, show what hasn’t worked, or maybe reveal that it’s just a tiny, easy fix. And if the asker is specific about what it is they’re trying to accomplish, it will further help those answering focus their help in that direction.
 
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
+## A dumb question is forgotten
 
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
+An example of a question that is not smart is this post, simply titled "[Logging function calls to a library](https://stackoverflow.com/questions/77881461/logging-function-calls-to-a-library)". The summary might as well be the entire post, but to try and summarize further, the OP is tracing a randomly occurring bug in his C++ program and is trying to figure out if his external library calls are the source. He asks if there is a way to log functions to the library without having to alter source code. His program is complex and multi-threaded, and all function calls to the library have specific prefixes. 
 
-```
-Q: python date of the previous month
+About the only two guidelines he didn’t break with his question was using clear grammar and spelling, and not marking the question as urgent. Otherwise, there is no indication that he searched documentation or for previously asked questions. There was nothing specific in his very open-ended post, not even which library or what the “bug” is. He doesn’t list what he’s tried or include any snippets of code. Amazingly, someone took the time to reply to him with several different things he can try. The most helpful though, was advising him it’d be much easier to help if he described the problem in the post.
 
-I am trying to get the date of the previous month with python. Here is what i've tried:
+## A smart question helps others
 
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
+In contrast, I found this post to be an example of a smart question, very thoroughly titled "[How to fix "FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory" error](https://stackoverflow.com/questions/55613789/how-to-fix-fatal-error-ineffective-mark-compacts-near-heap-limit-allocation-fa)". The OP is trying to deploy a React.js application to Heroku but while compiling assets, the build fails and produces the error. He includes the large snippet of output that displays exactly what is being compiled, more details on the error, and the notification that the precompiling and push failed. He then includes snippets of the various methods he tried, along with links to prior search results, and the code in his package.json file.
 
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
-
-I have solved this trouble in bash with:
-
-echo $(date -d"3 month ago" "+%G%m%d")
-
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
-
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
-
-Thanks for your help!
-```
-
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
-
-```
-A: datetime and the datetime.timedelta classes are your friend.
-
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
-
-Like this:
-
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
-
-```
- 
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
-
-## The foolproof way to get ignored.
-
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
-
-```
-Q: Facebook Desktop Notifier
-
-I am a beginner programmer that have never used anything other than what's included in a language.
-
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
-How should go about doing this? Thanks in advance.
-
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
-```
-
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
-
-## Conclusion
-
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
+While he didn’t hit all of the guidelines and the question could have been smarter (there were actually no questions, just a series of statements that implied a question), he provided enough detail and proof that he did his homework. In turn, his post was highly upvoted and he received many replies with suggestions of what he can do to fix it. Unfortunately, he didn’t receive his first reply until two months after the post, but a few of the replies have gone on to be solutions for others having the same issue, even four years later. Him posting his question smartly has helped many other developers in their search for a solution to their own similar problems.
