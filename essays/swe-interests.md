@@ -1,9 +1,9 @@
 ---
 layout: essay
 type: essay
-title: "No Dumb Questions, Only... Not Smart Questions?"
+title: "There's a program for that"
 # All dates must be YYYY-MM-DD format!
-date: 2024-01-25
+date: 2024-01-30
 published: false
 labels:
   - Software Engineering
@@ -21,9 +21,15 @@ My interest in software engineering stemmed initially from my time playing compu
 
 It was a challenge to get accustomed to programming. It requires a different way of thinking. I can’t just do something, I have to be explicit with everything that goes on in the code. Let this equal that, and now that can equal this other thing. Now that I’ve been working towards my degree for a couple years now, I’m much more used to it, and have enjoyed challenging myself. While coming up with the right algorithm can be a fun puzzle to solve, it can be mind numbing troubleshooting why code isn’t working or is doing this weird, unintended thing. It’s very satisfying to finally get it figured out and the program working. 
 
-I’m not interested in software engineering just for the sake of programming, though. What excites me most is the ability to create a useful product for any number of areas. Almost anything of interest, I could apply my skills towards a project related to it. Create an addon for my favorite video game, a website for the local mom-and-pop shop down the street, or an application dedicated to pickleball or whatever current trend I’ve found myself following. Work for a tech giant, startup, medical company, financial institution, or in academia. A career in software engineering can go in countless different directions.
+I’m not interested in software engineering just for the sake of programming, though. What excites me most is the ability to create a useful product for any number of areas. Almost anything of interest, I could apply my skills towards a project related to it. Create an addon for my favorite video game, a website for the local mom-and-pop shop down the street, or an application dedicated to pickleball or whatever current trend I’ve found myself following. Work for a tech giant, startup, medical company, financial institution, or in academia; a career in software engineering can go in countless different directions.
 
-As for me, I think the possibilities presented by machine learning and artificial intelligence are fascinating and I 
+Two fields that interest me in particular are data science and artificial intelligence. I've always liked looking at data and statistics and trying to make sense of it, so data science caught my attention as soon as I'd heard of it. Having to build domain knowledge of a topic to better understand the questions I should be asking of the data appeals to me. 
+
+multidisciplinary and math/prob/stats/algorithms/machine learning/business/programming (filtering and combining data), predicitive climate modeling and transportation optimization
+
+artificial intelligence is fascinating, the possibilties of it. things like NLP, computer vision, autonomous robots  are so cool and i would like to be a part of it
+
+machine learning
 
 would like to learn more about them. Some opportunities I have a personal interest in are predictive climate modeling, transportation optimization, and natural language processing.
 I find interesting include predictive climate modeling, transportation and logistics optimization, and natural language processing. 
