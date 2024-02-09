@@ -11,7 +11,9 @@ labels:
   - Coding Style
 ---
 
-<img width="200px" src="../img/least-i-look-good.jpg">
+<div style="float: left; margin-right: 10px;">
+  <img width="200px" src="../img/least-i-look-good.jpg">
+</div>
 
 My first week with ESLint changed my impression of coding style guides. My experience using a style guide in the past, with Java in ICS 111, was not the best. Installing it along with the Eclipse IDE was the first assignment we were given as our introduction to programming. I didn’t have the opportunity to first just program, so I don’t think I was able to appreciate its use. The squiggly red lines under the already-correctly functioning code were just annoying pests I had to get rid of. In the two next computer science courses I took, I was free to program without the style guide.
 
