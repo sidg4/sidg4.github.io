@@ -8,7 +8,7 @@ published: true
 labels:
   - Software Engineering
   - Programming Practices
-  - Code Style
+  - Coding Style
 ---
 
 <img width="200px" src="../img/least-i-look-good.jpg">
