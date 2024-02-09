@@ -13,7 +13,7 @@ labels:
   - Artificial Intelligence
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/dumb-questions.png">
+<img width="200px" class="rounded float-start pe-4" src="../img/dumb-questions.png">
 
 ## There are no dumb questions, only… not smart questions?
 
