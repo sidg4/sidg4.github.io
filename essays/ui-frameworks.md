@@ -26,7 +26,7 @@ This simple web page built with normal HTML/CSS didn’t take long to make, but 
 
 That brings us to probably the biggest appeal of Bootstrap, responsive web design. Had we been rolling with plain CSS, and maybe told the history of a few more browsers (which would also muddy up our styling), we’d have to make contingencies for varying screen widths, unless we wanted our web page to scroll horizontally. Nobody likes horizontal scrolling, though. So do we make the text smaller, or do we reduce the padding? Do we have additional histories wrap back around, conjure up an intentional horizontal scrolling mechanism, or abandon the column idea altogether? 
 
-<div style="float: left; margin-right: 10px;">
+<div style="float: right; margin-left: 10px;">
   <img width="300px" src="../img/bad-scaling.jpg">
 </div>
 
