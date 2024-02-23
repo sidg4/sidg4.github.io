@@ -13,7 +13,7 @@ labels:
 ---
 
 <div style="float: left; margin-right: 10px;">
-  <img width="300px" src="../img/shocked-pikachu-css.jpg">
+  <img width="200px" src="../img/shocked-pikachu-css.jpg">
 </div>
 
 This week was my first week using BootStrap 5, or any UI framework for that matter. Before this, I had spent a couple of weeks learning HTML and CSS. I built very basic web pages, nothing fancy whatsoever, and I actually liked what was showing up in the browser. It was simple, no frills, no fluff, and it worked. But after seeing what can be done with Bootstrap, it’s hard to argue against the efficiency of a UI framework.
@@ -24,11 +24,11 @@ This simple web page built with normal HTML/CSS didn’t take long to make, but 
 
 ## Vote 'No' For Horizontal Scrolling 
 
-That brings us to probably the biggest appeal of Bootstrap, responsive web design. Had we been rolling with plain CSS, and maybe told the history of a few more browsers (which would also muddy up our styling), we’d have to make contingencies for varying screen widths, unless we wanted our web page to scroll horizontally. Nobody likes horizontal scrolling, though. So do we make the text smaller, or do we reduce the padding? Do we have additional histories wrap back around, conjure up an intentional horizontal scrolling mechanism, or abandon the column idea altogether? 
-
 <div style="float: right; margin-left: 10px;">
   <img width="300px" src="../img/bad-scaling.jpg">
 </div>
+
+That brings us to probably the biggest appeal of Bootstrap, responsive web design. Had we been rolling with plain CSS, and maybe told the history of a few more browsers (which would also muddy up our styling), we’d have to make contingencies for varying screen widths, unless we wanted our web page to scroll horizontally. Nobody likes horizontal scrolling, though. So do we make the text smaller, or do we reduce the padding? Do we have additional histories wrap back around, conjure up an intentional horizontal scrolling mechanism, or abandon the column idea altogether? 
 
 The beautiful thing about a responsive UI framework is that it’s already thought about those questions. With a magic word, just a class selector, we access its underlying styling. A selectors styling can be either quite simple like changing the color and background color, or rather extensive like directing the component how to respond to changing window sizes by adjusting font size, padding, wrap, form, etc.
 
