@@ -36,7 +36,7 @@ For most of the in-class WODs, the preceding practice/experience WODs sufficient
 
 For some of the essays, I tried inputting the prompt into ChatGPT to see what it spits out. I tried a few different variations of the prompt, such as telling it to be less technical, more casual, not too bloggy, but it never spat out anything good, so I didn't use any of its suggestions. I did, however, use it to correct any spelling or grammatical mistakes that I missed, as well as assist in markdown formatting.
 
-For this essay, I used ChatGPT to finish out the last few sections, V through VIII. Usually, I don't think what it puts out for the technical essays is any good, but in this instance, I thought it was pretty decent and ended up using it. [ChatGPT Prompt](https://chat.openai.com/share/69c863fe-ea8a-45c4-9d25-5733b69d9ef8)
+For this essay, I used ChatGPT to finish out the last few sections, V through VIII. Usually, I don't think what it puts out for the technical essays is any good, but in this instance, I thought it was pretty decent and ended up using it. For the prompt, I copied and pasted the entirety of the essay that I had finished up until section V and said for it to create responses to the instructions under V through VIII. [ChatGPT Prompt](https://chat.openai.com/share/69c863fe-ea8a-45c4-9d25-5733b69d9ef8)
 
 ##### 5. Final project
 
