@@ -6,11 +6,14 @@ title: "Experiencing Artificial Intelligence"
 date: 2024-05-03
 published: false
 labels:
-  - AI
+  - Artificial Intelligence
+  - ChatGPT
+  - Software Engineering
+  - Education
 ---
 
 ### I. Introduction
-  Artificial intelligence is still very much in its infancy, and the use of tools like ChatGPT and Co-Pilot in the education field is the center of much debate, as is how to incorporate them into the learning environment. While learning to work with AI is a skill that is becoming more and more valuable, the amount of prompt tweaking needed can make it seem gimmicky, and the hallucinations mean whatever it puts out can't be fully trusted. So for now, it can only really complement traditional learning and is best used with caution. Whether that is researching what it is saying, possessing a degree of knowledge already of the topic, or, like in the case of software engineering, testing the code it generates before deploying it to a live environment. I've personally used ChatGPT and Co-Pilot and found them to often be useful, but not always.
+  Artificial intelligence is still very much in its infancy, and the use of tools like ChatGPT and Co-Pilot in the education field is the center of much debate, as is how to incorporate them into the learning environment. While learning to work with AI is a skill that is becoming more and more valuable, the amount of prompt tweaking needed can make it seem gimmicky, and the hallucinations mean whatever it puts out can't be fully trusted. So for now, it can only really complement traditional learning and is best used with caution. Whether that is researching what it is saying, possessing a degree of knowledge already of the topic, or, like in the case of software engineering, testing the code it generates before deploying it to a live environment. The times I have used ChatGPT and Co-Pilot, I've found them to often be useful, but not always.
 
 ### II. Personal Experience with AI:
 I have used AI in class this semester in the following areas:
@@ -42,6 +45,7 @@ I did not use AI for this simply because I did not think about doing so, but tha
   9. Coding example e.g. “give an example of using Underscore .pluck”
 
   10. Explaining code
+Most of what I've used ChatGPT for is to explain code. Both JavaScript and functional programming were new to me in ICS 314, so a lot of the questions I asked were about explaining syntax, slightly different keywords, or small code snippets. A couple of examples, I asked, "In javascript, what's the difference between: ```for (let x of y)``` and ```for (let x in y)```", and , "In javascript, what's the difference between slice and splice?". For both pairs, it gave me a breakdown of what each one does and when to use them, as well as example code snippets.
 
   11. Writing code
 For the in-class WOD that I had completely blanked on, I simply fed ChatGPT the code outline from the instructions (2 classes with constructors and undefined but descriptively named methods, along with the method calls and expected answers), and it gave me pretty much everything I needed. I had to make a couple adjustments to my prompt, so I first edited it to say, "don't add any new methods to implementation", then, "and don't change the properties of class Score". After that, I had to make a couple small tweaks and additions to the code, particularly to the math it used, and I was done.
@@ -50,8 +54,10 @@ For the in-class WOD that I had completely blanked on, I simply fed ChatGPT the 
 [JSFiddle](https://jsfiddle.net/sgills/k36sqn01/28/)
 
   12. Documenting code
+I did not use AI for this because I didn't comment on code as much as I should have in this class, but this would have been an excellent use of it.
 
   13. Quality assurance 
+
 
   14. Other uses in ICS 314 not listed above
 
