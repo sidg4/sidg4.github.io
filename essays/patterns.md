@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Implement Patters, Don't Redesign Wheels"
+title: "Implement Patterns, Don't Redesign Wheels"
 # All dates must be YYYY-MM-DD format!
 date: 2024-04-25
 published: true
