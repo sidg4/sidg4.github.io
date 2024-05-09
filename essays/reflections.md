@@ -19,8 +19,8 @@ In my introductory class to computer science and programming, we had to use the 
 
 ## Coding With Higher Standards
 
-<div style="margin: 10px;">
-  <img width="600px" src="../img/codingstandards_beforeafter.jpg">
+<div style="float: left; margin-right: 10px;">
+  <img width="200px" src="../img/eslint-beforeafter.png">
 </div>
 
 Extra functionality via plugins is another feature that has made a big difference. Installing ESLint, for example, has helped facilitate cleaner coding standards that makes it easier to collaborate on projects, whether open source or as part of a team. It’s another concept that I did not appreciate in prior classes, but do now. I viewed it as something that wasn’t really necessary, and somewhat annoying to have to conform to. These group projects, including assignments that have us expanding on the professors’ code, have made it clear as to why coding standards are necessary in software engineering. Small code with weird or inconsistent formatting and spacing is whatever, but with how sprawling an application can be, it could be a nightmare to read. 
