@@ -17,11 +17,11 @@ Now that ICS 314, my introductory class to software engineering, is coming to a 
 
 In my introductory class to computer science and programming, we had to use the Eclipse IDE. The small programs we were writing then did not at all lead me to appreciate what all an integrated development environment has to offer. After going through ICS 314, I get it: they’re essential to developing an actual application. We used IntelliJ IDEA in this class, and the features were so much more appreciated. With how many interconnected files we were working with in our assignments, having IntelliJ be able to see the entirety of the project folder was a godsend. Without an IDE, something as simple sounding as renaming a file or function could be an extremely tedious endeavor if it is being imported by other files, but IntelliJ’s ability to search for all instances of its use and rename them made it trivial. 
 
-## Coding With Higher Standards
-
 <div style="float: left; margin-right: 10px;">
-  <img width="200px" src="../img/eslint-beforeafter.png">
+  <img width="600px" src="../img/eslint-beforeafter.png">
 </div>
+
+## Coding With Higher Standards
 
 Extra functionality via plugins is another feature that has made a big difference. Installing ESLint, for example, has helped facilitate cleaner coding standards that makes it easier to collaborate on projects, whether open source or as part of a team. It’s another concept that I did not appreciate in prior classes, but do now. I viewed it as something that wasn’t really necessary, and somewhat annoying to have to conform to. These group projects, including assignments that have us expanding on the professors’ code, have made it clear as to why coding standards are necessary in software engineering. Small code with weird or inconsistent formatting and spacing is whatever, but with how sprawling an application can be, it could be a nightmare to read. 
 
