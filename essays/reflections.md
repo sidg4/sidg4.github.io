@@ -18,7 +18,7 @@ Now that ICS 314, my introductory class to software engineering, is coming to a 
 In my introductory class to computer science and programming, we had to use the Eclipse IDE. The small programs we were writing then did not at all lead me to appreciate what all an integrated development environment has to offer. After going through ICS 314, I get it: they’re essential to developing an actual application. We used IntelliJ IDEA in this class, and the features were so much more appreciated. With how many interconnected files we were working with in our assignments, having IntelliJ be able to see the entirety of the project folder was a godsend. Without an IDE, something as simple sounding as renaming a file or function could be an extremely tedious endeavor if it is being imported by other files, but IntelliJ’s ability to search for all instances of its use and rename them made it trivial. 
 
 <div style="float: left; margin-right: 10px;">
-  <img width="600px" src="../img/eslint.png">
+  <img width="600px" src="../img/codestandards.png">
 </div>
 
 ## Coding With Higher Standards
