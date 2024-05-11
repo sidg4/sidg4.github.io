@@ -15,16 +15,13 @@
   },
   "interests": [
     { "name": "Software Engineering" },
+    { "name": "Application Development" },
     { "name": "Data Science" },
-    { "name": "Artifical Intelligence" },
-    { "name": "Machine Learning" },
-    { "name": "Language Learning" },
-    { "name": "Urban Planning and Transit" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Python" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "Python", "React", "Bootstrap", "Meteor.js" ]
     },
     {
       "name": "Toolsets/OS",
