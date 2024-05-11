@@ -12,10 +12,14 @@ summary: "My team developed an application to connect gymgoers to workout partne
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/mfc-profile-project.png" class="img-thumbnail" >
+  <img width="200px" src="../img/mfc-project.png" >
 </div>
 
-Manoa Fit Connect is an application our team developed for gymgoers and those who are hesitant to become gymgoers. Our primary aim was to connect them with workout partners that they would match well with by identifying similar workout goals and styles. Other features of the application are a progress tracker that recorded workouts and personal bests, a page to familiarize gymgoers with equipment present at the UH Manoa gym, and a page to connect users with events happening in the community.
+Manoa Fit Connect is an application our team developed for gymgoers and those who are hesitant to become gymgoers. Our primary aim was to connect them with workout partners that they would match well with by identifying similar workout goals and styles. Other features of the application are a progress tracker that records workouts and personal bests, a page to familiarize gymgoers with equipment present at the UH Manoa gym, and a page to connect users with events happening in the community.
+
+<div class="text-center p-4">
+  <img width="200px" src="../img/mfc-profile-project.png" >
+</div>
 
 My responsibilities for the project were to develop the user profile and profile customization pages, as well as the signup page. The signup page was rather straightforward in registering new users to the site. The profile customization page was designed to facilitate searching for workout partners. It includes customization options for identifying information such as name and image as well as matchmaking information such as experience level and workout preferences. The user profile page displays that information for others to see.
 
